@@ -7,6 +7,7 @@ const Example : React.FC = () => (
         This is a new View
         <Header title="Project"/>
         <Card/>
+        <Card/>
     </div>
 );
 
