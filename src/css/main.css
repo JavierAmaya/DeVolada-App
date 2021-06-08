@@ -2,3 +2,82 @@
 
     background-color: black;
 }
+
+.navbar_mine {
+    background-color: #00A61B!important;
+    color: black;
+    text-decoration: none;
+    size: 5px;
+}
+
+.primaries_buttons{
+    background-color: #00A61B!important;
+    color: black;
+}
+
+.img_logo_index{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    height: 30%;
+}
+
+.btn-group button {
+    background-color: #04AA6D; /* Green background */
+    border: 1px solid green; /* Green border */
+    color: white; /* White text */
+    padding: 10px 24px; /* Some padding */
+    cursor: pointer; /* Pointer/hand icon */
+    width: 250px; /* Set a width if needed */
+    display: block; /* Make the buttons appear below each other */
+    text-align: center;
+    border-radius: 25px;
+}
+  
+.btn-group button:not(:last-child) {
+    border-bottom: none; /* Prevent double borders */
+}
+  
+  /* Add a background color on hover */
+.btn-group button:hover {
+    background-color: #3e8e41;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: black;
+    text-align: initials;
+}
+
+.copyrigth{
+    text-align: end;
+}
+
+.align-center-btns{
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.bg-index{
+    background-color: #ececec93;
+}
+
+.aling-btns-nav{
+    text-align: end;
+}
+
+.items-nav{
+    color: black!important;
+}
+
+.item-left{
+    margin-left: 40px;
+}
+
+.items-footer{
+    margin-top: 10px;
+}
