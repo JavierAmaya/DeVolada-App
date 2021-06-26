@@ -1,30 +1,22 @@
-import React from 'react';
+import React from "react";
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
-import Col from 'react-bootstrap/Col';
-
-import logo from '../img/logo.png';
-
-const FooterMine :  React.FC = () => (
-
-    <div className="footer bg-index">
-        <Container>
-            <Row>
-                <Col className="items-footer"> 
-                    <img
-                        alt="logo"
-                        src={logo}
-                        width="30"
-                        height="30"
-                        className=""
-                    />
-                </Col>
-                <Col><p className= "copyrigth items-footer" >© 2021 Copyright: De Volada </p></Col>
-            </Row>
-        </Container>
-    </div>
-);
-
-
-export default FooterMine;
-
+const Footer:React.FC = () => (
+    <footer id="footer">
+      <Container>
+        <Row>
+          <div className="col-md-12">
+            <div className="copyright">
+              &copy; Copyright <strong>ProOnliPc Theme</strong>. All Rights Reserved
+            </div>
+            <div className="credits">
+          
+              Templates by <a href="https://www.youtube.com/channel/UCDH0DJaVLkCDtl_YN9hhByw?view_as=subscriber">ProOnliPc</a>
+            </div>
+          </div>
+        </Row>
+      </Container>
+    </footer>
+)
+  
+export default Footer;
