@@ -1,14 +1,8 @@
 import React from "react";
 import Container from 'react-bootstrap/Container';
-import Row from 'react-bootstrap/Row';
 import Image from 'react-bootstrap/Image';
 import Button from 'react-bootstrap/Button';
 
-
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { library } from '@fortawesome/fontawesome-svg-core';
-//import { fab } from '@fortawesome/free-brands-svg-icons';
-import { faCheckSquare, faCoffee } from '@fortawesome/free-solid-svg-icons';
 import Logo from "../../img/Iconooficial.png"
 const login:React.FC = () => (
     <div id="LoginForm">

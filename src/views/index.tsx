@@ -5,7 +5,7 @@ import React from 'react';
 import Header, {} from '../components/header';
 //import Card, {} from '../components/card';
 import NavBaro from '../components/navbar';
-import FooterMine from '../components/footer';
+//import FooterMine from '../components/footer';
 
 // Components from React-Bootstrap
 
@@ -52,8 +52,6 @@ const Index : React.FC = () => (
             </div>
         </Col>    
         </Container>
-        <FooterMine></FooterMine>
-
     </div>
 );
 

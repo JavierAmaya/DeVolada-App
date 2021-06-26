@@ -4,12 +4,6 @@ import Row from 'react-bootstrap/Row';
 import Image from 'react-bootstrap/Image';
 import Button from 'react-bootstrap/Button';
 
-
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { library } from '@fortawesome/fontawesome-svg-core';
-//import { fab } from '@fortawesome/free-brands-svg-icons';
-import { faCheckSquare, faCoffee } from '@fortawesome/free-solid-svg-icons';
-import fondo from "../../img/bg-01.jpg"
 import ImgPe from "../../img/img2.png"
 const login:React.FC = () => (
     <div className="container-contact100">
@@ -23,13 +17,13 @@ const login:React.FC = () => (
 						<div className="form-check col-6">
 							<input id="Color-Check" className="form-check-input" type="radio" name="flexRadioDefault"/>
 							<label className="form-check-label">
-							  Personal
+							Personal
 							</label>
 						</div>
 						<div className="form-check col-6">
 							<input id="Color-Check" className="form-check-input" type="radio" name="flexRadioDefault" checked/>
 							<label className="form-check-label">
-							  Empresarial
+							Empresarial
 							</label>
 						</div>
 

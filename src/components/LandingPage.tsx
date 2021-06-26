@@ -7,7 +7,7 @@ import Team,{} from "./Landinpage/Team";
 import Portfolio,{} from "./Landinpage/Portfolio";
 import Question,{} from "./Landinpage/Question";
 import Contact,{} from "./Landinpage/Contact";
-import Footer,{} from "./Footer";
+import Footer,{} from "./footer";
 const LandingPage:React.FC = () => (
     <div>
         <Header/>
