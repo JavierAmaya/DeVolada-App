@@ -1,8 +1,6 @@
 import React from 'react';
 
 //own components
-
-import Header, {} from '../components/header';
 //import Card, {} from '../components/card';
 import NavBaro from '../components/navbar';
 //import FooterMine from '../components/footer';
@@ -22,10 +20,6 @@ import logo from '../img/logo.png';
 const Index : React.FC = () => (
     <div className="">
         <NavBaro/>
-
-
-
-        
         <Container>
             <Row>
                 <Col>
