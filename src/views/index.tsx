@@ -22,6 +22,10 @@ import logo from '../img/logo.png';
 const Index : React.FC = () => (
     <div className="">
         <NavBaro/>
+
+
+
+        
         <Container>
             <Row>
                 <Col>
