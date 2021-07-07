@@ -1,10 +1,14 @@
 import React from "react";
-
-
-import SingInApp from "../components/SingIn/SingIn";
-import "../css/styleLoginAndSingIn.css";
+import Navbar from "../components/Navbar";
+import PanelLeft from "../components/Left-panel-app";
+import Directional from "../components/breadcrumbFile";
+import CardCategory from "../components/CardCategory";
+import CardCompany from "../components/CardCompany";
+import "../css/StyleApp.css";
 import '../css/vendor/bootstrap/css/bootstrap.min.css';
-const login:React.FC = () => (
-  <SingInApp/>
+const customer:React.FC = () => (
+  <div>
+    
+  </div>
 );
-export default login;
+export default customer;

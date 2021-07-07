@@ -4,7 +4,7 @@ import Row from 'react-bootstrap/Row';
 import Image from 'react-bootstrap/Image';
 import ImgQuestion from "../../img/ask.jpg";
 const Header:React.FC = () => (
-<div  className="asked_main">
+<div id="asked"  className="asked_main">
    <Container>
       <Row>
          <div className="col-md-12">

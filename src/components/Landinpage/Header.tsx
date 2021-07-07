@@ -5,7 +5,7 @@ import Image from 'react-bootstrap/Image';
 import LogoImg from "../../img/Iconooficial.png";
 import DeliveryImg from "../../img/img1.png";
 const Header:React.FC = () => (
-    <header>
+    <header id="Home">
          <div className="header_bg">
             <div className="header">
                <Container>
@@ -14,7 +14,7 @@ const Header:React.FC = () => (
                         <div className="full">
                            <div className="center-desk">
                               <div className="logo">
-                                 <a href="index.html"><Image style={{width:"40%"}}  src={LogoImg} alt=""/></a>
+                                 <a href="myapp"><Image style={{width:"40%"}}  src={LogoImg} alt=""/></a>
                               </div>
                            </div>
                         </div>

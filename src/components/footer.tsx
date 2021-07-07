@@ -2,21 +2,18 @@ import React from "react";
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 const Footer:React.FC = () => (
-    <footer id="footer">
-      <Container>
-        <Row>
-          <div className="col-md-12">
-            <div className="copyright">
-              &copy; Copyright <strong>ProOnliPc Theme</strong>. All Rights Reserved
+  <footer className="site-footer">
+    <div className="footer-inner">
+        <div className="row">
+            <div className="col-sm-6">
+                Copyright &copy; 2021 DevoladaApp
             </div>
-            <div className="credits">
-          
-              Templates by <a href="https://www.youtube.com/channel/UCDH0DJaVLkCDtl_YN9hhByw?view_as=subscriber">ProOnliPc</a>
+            <div className="col-sm-6 text-right">
+                Designed by <a href="">Unah</a>
             </div>
-          </div>
-        </Row>
-      </Container>
-    </footer>
+        </div>
+    </div>
+  </footer>
 )
   
 export default Footer;

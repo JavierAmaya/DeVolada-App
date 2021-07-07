@@ -9,11 +9,12 @@ const header:React.FC = () => (
         </div>
         <nav id="nav-menu-container">
             <ul className="nav-menu">
-            <li className="menu-active"><a href="#hero">Inicio</a></li>
-            <li><a href="#about">Quienes somos</a></li>
-            <li><a href="#services">Servicios</a></li>
+            <li className="menu-active"><a href="#Home">Inicio</a></li>
+            <li><a href="#Tecnology">Acerca de</a></li>
             <li><a href="#testimonials">Desarrolladores</a></li>
-            <li><a href="#contact">Contactanos</a></li>
+            <li><a href="#services">Servicios</a></li>
+            <li><a href="#asked">Preguntas</a></li>
+            <li><a href="#contacts">Contactanos</a></li>
             <li><a href="devolada">Ir De Volada</a></li>
             </ul>
         </nav>

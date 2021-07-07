@@ -6,7 +6,7 @@ import Service1 from "../../img/service1.png";
 import Service2 from "../../img/service2.png";
 import Service3 from "../../img/service3.png";
 const Header:React.FC = () => (
-   <div id="service" className="three_box">
+   <div id="Tecnology" className="three_box">
    <Container>
       <Row>
          <h3 className="col-12" id="colorTextService">Tecnología del sitio web</h3>
