@@ -23,12 +23,6 @@ const customer:React.FC = () => (
       <div className="content">
         <div className="animated fadeIn">
             <div className="row">
-              <CardCategory/>
-              <CardCategory/>
-              <CardCategory/>
-              <CardCompany/>
-              <CardCategoryMenu/>
-              <GenerateOrders/>
               <C2C/>
 
               <CardBuy/>
@@ -41,3 +35,14 @@ const customer:React.FC = () => (
   </div>
 );
 export default customer;
+
+/*
+              <CardCategory/>
+              <CardCategory/>
+              <CardCategory/>
+              <CardCompany/>
+              <CardCategoryMenu/>
+              <GenerateOrders/>
+              
+
+*/

@@ -16,12 +16,20 @@ const C2C:React.FC = () =>(
                         <Form className="displayflex">
                             <span className="col-12">Información personal envía</span>
                             <div className="form-group col-6">
-                                <label>Nombre</label>
-                                <input type="text" className="form-control" id="NameCategory" placeholder="Nombre" value="Edwin"/>
+                                <label>Primer Nombre</label>
+                                <input type="text" className="form-control" id="NameOneCustomerUser" placeholder="Primer Nombre"/>
                             </div>
                             <div className="form-group col-6">
-                                <label>Apellido</label>
-                                <input type="text" className="form-control" id="NameCategory" placeholder="Apellido" value="Quintero"/>
+                                <label>Segundo Nombre</label>
+                                <input type="text" className="form-control" id="NametwoCustomerUser" placeholder="Segundo Nombre"/>
+                            </div>
+                            <div className="form-group col-6">
+                                <label>Primer Apellido</label>
+                                <input type="text" className="form-control" id="LastNameOneCustomerUser" placeholder="Primer Apellido"/>
+                            </div>
+                            <div className="form-group col-6">
+                                <label>segundo Apellido</label>
+                                <input type="text" className="form-control" id="LastNameOneCustomerUser" placeholder="segundo Apellido"/>
                             </div>
                             <div className="form-group col-6">
                                 <label>Numero Teléfono</label>
@@ -48,12 +56,20 @@ const C2C:React.FC = () =>(
                         <Form className="displayflex">
                             <span className="col-12">Información personal recibe</span>
                             <div className="form-group col-6">
-                                <label>Nombre</label>
-                                <input type="text" className="form-control" id="NameCategory" placeholder="Nombre" value="Edwin"/>
+                                <label>Primer Nombre</label>
+                                <input type="text" className="form-control" id="NameOneCustomer" placeholder="Primer Nombre"/>
                             </div>
                             <div className="form-group col-6">
-                                <label>Apellido</label>
-                                <input type="text" className="form-control" id="NameCategory" placeholder="Apellido" value="Quintero"/>
+                                <label>Segundo Nombre</label>
+                                <input type="text" className="form-control" id="NametwoCustomer" placeholder="Segundo Nombre"/>
+                            </div>
+                            <div className="form-group col-6">
+                                <label>Primer Apellido</label>
+                                <input type="text" className="form-control" id="LastNameOneCustomer" placeholder="Primer Apellido"/>
+                            </div>
+                            <div className="form-group col-6">
+                                <label>segundo Apellido</label>
+                                <input type="text" className="form-control" id="LastNameOneCustomer" placeholder="segundo Apellido"/>
                             </div>
                             <div className="form-group col-6">
                                 <label>Numero Teléfono</label>
